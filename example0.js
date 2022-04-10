@@ -1,15 +1,8 @@
-function nums = (){
+var example0 = function(nums, target) {
 
-for ( i = 0; i < nums.length; i++)
+    for(let i = 0; i <= nums.length; i++){
+      
+        }
+    }
 
-
-
-
-
-}
-
- 
-
-         
-
-}
+    
