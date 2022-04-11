@@ -1,21 +1,20 @@
- 
-function example0 (nums); {
+function example0 (nums) {
+    const target = 9;
 
-
-   for (let i = 0; i < nums.length; i++);
-    {
-        let nums = [2,7,11,15];
-
-    }
-
-        let target = ( nums.indexof[0] + nums.indexof[1] ) ; 
-
-
-         return (); 
-
-    
-};
-      
-
+    for (let i = 0; i < nums.length; i++)
+     {
+         if (nums[i] + nums[i+1] == target){
+                    console.log(i,i+1)
+         }
         
-        console.log (target);
+ 
+     }
+ 
+    
+ 
+     
+ };
+       
+ 
+         
+example0 ([2,7,11,15]);
